@@ -1,0 +1,61 @@
+body {
+    color: black;
+    font-family: "Outfit", serif;
+}
+a.navbar-brand {
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+}
+.navbar-toggle {
+    border: 1px solid black;
+}
+.navbar-toggle:hover {
+    /* background-color: white; */
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.navbar-toggle:active {
+    color: white;
+    border: 1px solid white;
+}
+.icon-bar {
+    border: inherit;
+}
+nav {
+    background-color: #b9b9b9;
+    border-bottom: 2px solid black;
+}
+.navbar-nav {
+    background-color: rgb(236, 236, 236);
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navbar-item a {
+    color: black;
+    display: block;
+}
+.navbar-item a:hover {
+    background-color: black !important;
+    color: white;
+}
+.navbar-nav .navbar-item:nth-child(-n + 2) {
+    border-bottom: 1px solid black;
+}
+
+h2.title {
+    margin: 20px 0 20px;
+}
+
+.title-description {
+    background-color: #b9b9b9;
+    border: 2px solid black;
+    margin: 0px;
+    line-height: 2;
+    text-transform: lowercase;
+}
+@media (max-width: 767px) {
+    .title-description {
+        margin: 0 36px 0 36px;
+    }
+}
